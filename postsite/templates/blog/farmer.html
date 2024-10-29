@@ -1,0 +1,83 @@
+{% extends "blog/header.html" %}
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   
+    
+    {% block title %}
+    
+    
+  {% endblock title %}
+
+
+</head>
+{% block content %}
+      
+    <div class="container-fluid bg-success text-center mt-.9 p-2">
+  <h1><b>NosTech.digital</b></h1>
+
+    </div>
+  <div class="container mt-3 ">
+
+    <div class="card text-center">
+        <div class="card-header">
+          <h2><b>Cultivating Life and Sustaining Communities.</b></h2>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title"><b>Type Of Farming</b></h3>
+          <p class="card-text"><b>
+            
+            Crop Farming: Involves growing plants for food, feed, or industrial purposes. Examples include wheat, rice, corn, and soybeans.
+            Livestock Farming: Focuses on raising animals for meat, milk, wool, and other products. Common livestock includes cattle, poultry, pigs, and sheep.
+            Mixed Farming: Combines crop cultivation and animal husbandry on the same farm.
+            Specialized Farming: Some farms specialize in specific crops (e.g., vineyards for grapes) or livestock (e.g., dairy farms).
+            Importance of Farming:
+            Food Security: Farming provides the majority of our food supply. Without it, global food security would be compromised.
+            Economic Impact: Farming contributes significantly to national economies, providing jobs and income for millions.
+            Environmental Stewardship: Sustainable farming practices help conserve soil, water, and biodiversity.
+            Challenges in Farming:
+            Climate Change: Erratic weather patterns affect crop yields and livestock health.
+            Land Degradation: Soil erosion, deforestation, and overuse of land impact productivity.
+            Pest and Disease Management: Farmers must combat pests and diseases to protect their crops and animals.
+            Access to Resources: Small-scale farmers often struggle with limited access to land, water,
+            and technology.
+            Sustainable Farming.<b> </p>
+          
+        </div>
+        <img src="{% static '/image/Farmers-at-Work.webp' %}" alt="fluid image">
+        
+        <div class="card-footer bg-dark mt-5" style="height: 20rem;"  >
+            <div class="col-sm-3 mt-3 ">
+                <ul>
+                    <li><a href="#"><b class="connect p-4">Connect us</b></a></li>
+                    <li><a href="#"><span style="color: gray;"><i class="fa-solid fa-phone p-1 my-3"></i></span>+234806454324</a></li>
+                    <li><a href=""> <span style="color:white;"><i class="fa-regular fa-envelope my-4"></i></span>nostech.digital@gmail</a></li>
+                    <li><a href="#"><span style="color: rgb(255, 0, 166);"><i class="fa-brands fa-square-instagram p-3 my-3"></i></span>Instagram</a></li>
+                  
+                 
+                  
+                   </ul>
+                 </div>
+
+<div class="col-sm-3 mt-3 ">
+     <ul>
+
+        <li><a href="#"><span style="color: rgb(223, 29, 29);"><i class="fa-brands fa-youtube p-4"></i></span>YouTube</a></li>
+     <li><a href="#"><span style="color: darkblue;"><i class="fa-brands fa-facebook-f p-4"></i></span>Facebook</a></li>
+     <li><a href="#"><span style="color: gray;"><i class="fa-brands fa-x-twitter p-4"></i></span>@nostech.digital</a></li>
+                      
+     </ul>
+     </div>
+            
+        </div>
+      </div>
+  </div>
+
+
+  {% endblock content %}
+</html>

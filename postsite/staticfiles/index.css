@@ -1,0 +1,210 @@
+ /* icon global design */
+ .fa-globe{
+    color: rgb(7, 7, 106);
+    margin-top: 8px;
+     }
+      .main-container{
+    
+        overflow: hidden;
+      }
+     
+     
+     
+     
+     /* dashboard design */
+      .yes{
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    
+     }
+    .menu-bar{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+     } 
+      .container-fluid{
+    
+    margin-top:-15px;
+    width: 100%;
+     }
+     /* btn menu design */
+    
+     .btn{
+      font-size: 1x;
+       font-family: poppins;
+       text-transform: uppercase;
+      font-weight: bold;
+     }
+     .btn{
+      letter-spacing: 2px;
+      border-radius: 10px;
+      color: white;
+     }
+     
+     /* icon toggle design */
+     
+     .tag{
+     
+      background-color: rgb(20, 208, 54);
+      font-size: 15px;
+      color: black;
+    }
+     
+     /* header h2 design */
+    h5 {
+    
+      
+      padding: 50px;
+      cursor: pointer;
+      font-size: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    } 
+    h5{
+    
+     
+      padding: 30px;
+      font-size: 15px; 
+      font-family: Arial, Helvetica, sans-serif;
+    } 
+    
+    p{
+    
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      color: black;
+    }
+    
+     .get{
+     
+      margin-left: -12rem;
+      padding: 40px;
+      cursor: pointer;
+      font-size: 25px;
+      font-weight: bold;
+      
+     }
+    
+     .get:hover{
+    
+      transition: 2.ms;
+      color: white;
+     }
+    
+      /* btns design */
+    .col-lg-10{
+      display: flex; 
+      justify-content: space-evenly; 
+     background-color: rgba(164, 174, 164, 0.439);
+     height: 12vh;
+     align-items: center;
+     border-radius: 30px;
+     margin: auto;
+     padding: 5px;
+    }
+    
+    
+    
+    .btn:hover{
+    transition: 2.ms;
+    color: chartreuse;
+    }
+      .btn-lg{
+      border-radius: 20px; 
+    
+     } 
+      /* cards design */
+    
+    
+    .card{
+      border-radius: 2px;
+      background: whitesmoke;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /* padding: 14px 80px 18px 36px; */
+      padding: 10px 10px 10px 10px;
+    cursor: pointer;
+     
+    }
+    
+    
+    .card-title:hover{
+      transition: 2.ms;
+      color: rgb(92, 94, 90);
+    
+    
+    } 
+    
+     
+    .cardy{
+     margin-left: 0.5px;
+     color: grey;
+    }
+    
+    /* card-title design */
+    h4{
+    
+     
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     h4:hover{
+    transition: 2.ms;
+    color: yellowgreen;
+     }
+    
+    
+    
+    
+    
+    
+    
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(rgb(196, 65, 65), rgb(38, 209, 38), rgb(59, 59, 182), alpha);
+      }
+    
+    
+    
+    
+    
+    
+    
+    /* footer design start here */
+    .font{
+    
+      color: white;
+    }
+    
+    
+    
+    
+    
+    .divider{
+      border-bottom: 1px solid rgb(55, 255, 79);
+      
+    }
+    
+    .footer{
+    background-color: #d6d0d017;
+    
+    
+    }
+    ul li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0px;
+      
+      
+    }
+    a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: -1px -5px;
+    transition: all ease 0.3s;
+    color: white;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: rgb(178, 9, 9);
+    }
